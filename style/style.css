@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+/* mixed style */
+
+*{
+  margin: 0;
+  padding: 0;
+}
+p{
+ color: rgba(39, 39, 39, 0.60);
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+}
+button{
+  margin-top: 20px;
+  cursor: pointer;
+ color: #FFF;
+font-size: 20px;
+font-weight: 700;
+ display: inline-flex;
+padding: 20px 43px;
+border: none;
+border-radius: 8px;
+background: #E55473;
+transition: all 1s;
+}
+button:hover{
+  background-color: aqua;
+}
+
+.container{
+  margin: 0px auto;
+    width: 75%;
+  max-width: 1440px;
+}
+.section-heading{
+  max-width: 500px;
+  text-align: center;
+margin: 50px auto;
+}
+
+/* header related style 
+ */
+
+.banner{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner .banner-text h2{
+color: #272727;
+font-size: 80px;
+font-weight: 800;
+}
+.banner .banner-text *{
+  margin-top: 32px;
+  max-width: 520px;
+}
+.banner .banner-img img{
+  width: 100%;
+  vertical-align: middle;
+}
+
+/* main related style  */
+
+.container .section-heading h2{
+  color: #272727;
+font-size: 40px;
+font-weight: 800;
+margin-bottom: 16px;
+}
+#featured{
+  padding: 170px 0px;
+}
+.section-1-img{
+  display: flex;
+  justify-content:space-between;
+  align-items: end;
+  gap: 20px;
+}
+.section-1-img .flower .flower-img{
+  background-color: #eedfe2;
+  border-radius: 300px 300px 0px 0px;
+  padding: 30px 24px 0px;
+  height: 500px;
+  display: flex;
+  align-items: end;
+}
+.section-1-img .flower .flower-img img{
+  width: 100%;
+}
+.section-1-img .flower #blue{
+  background-color: rgba(5, 151, 160, 0.15);
+}
+.section-1-img .flower #red{
+ background-color:  rgba(167, 33, 98, 0.15);
+}
+.section-1-img .flower #green{
+  background-color:  rgba(71, 125, 17, 0.15);
+}
+
+/* section 2 related style  */
+
+#section-2{
+  background-color: rgba(39, 39, 39, 0.05);
+  display: flex;
+  justify-content: space-around;
+  align-items: end;
+  padding: 87px 150px;
+  text-align: center;
+}
+/* section 3 related style  */
+
+.section-3{
+
+  margin-top: 100px;
+border-radius: 8px;
+background: rgba(229, 84, 115, 0.05);
+}
+#section3-content{
+  padding: 100px 0px;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.container .section-3-img{
+width: 100%;
+}
+/* .container.section-heading h2{
+  color: #272727;
+font-size: 40px;
+font-weight: 800;
+max-width: 600px;
+} */
+.container #section3-content{
+  width: 800px;
+}
+.container .section-heading h2 .important{
+  color: #E55473;
+font-size: 40px;
+font-weight: 800;
+}
+
+/* section 4 related style  */
+.section4-img{
+  display: flex;
+  justify-content: space-between;
+}
+#section4-heading{
+ padding-top: 70px;
+}
+/* section 5 related style  */
+.section5{
+  margin: 120px 0;
+}
+
+#section5-heading{
+  background-image: url(../Flower-Asset/Rectangle\ 9.png);
+ padding: 100px 0;
+ background-repeat: no-repeat;
+}
+/* #section5-heading form{
+  max-width: 800px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  margin-bottom: 30px;
+  
+} */
+/* .section5 form input{
+  
+  max-height: 30px;
+  flex-grow: 1;
+  border-radius: 8px;
+background: #FFF;
+padding: 3px;
+font-size: 12px;
+outline: none;
+} */
+/* .section5 form button{
+  margin-bottom: 50px;
+} */
